@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    padding: 10px;
+    width: 400px;
+    min-height: 500px;
+    background-color: rgb(104, 103, 103);
+}
+
+#item{
+    padding: 5px;
+    font-size: 15px;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    
+}
+
+#to-do-box{
+    margin-top:20px;
+    list-style: none;
+}
+
+#to-do-box li {
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 30px;
+
+}
+
+#to-do-box li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.done{
+    text-decoration: line-through;
+    color: burlywood;
+    background-color: gray;
+}
